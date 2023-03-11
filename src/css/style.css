@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap');
+
+body {
+    font-family: 'Manrope', sans-serif;
+    font-size: 28px;
+    background-color: hsl(218, 23%, 16%);
+    color: hsl(193, 38%, 86%);
+    max-width: 1440px;
+    max-height: 810px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+main.container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 600px;
+    height: 370px;
+    background-color: hsl(217, 19%, 24%);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+main.container div.card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    text-align: center;
+    margin: 15px 70px;
+}
+
+h1 {
+    margin-bottom: 30px;
+    margin-top: 20px;
+}
+
+hr {
+    margin-top: 50px;
+    width: 100%;
+    background-color: hsl(217, 19%, 38%)
+}
+
+div.button button{
+    font-size: 24px;
+    position: relative;
+    top: 65%;
+    padding: 18px 20px;
+    border-radius: 50%;
+    width: 100%;
+    box-shadow: 0 10px 10px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.19);
+    color: hsl(218, 23%, 16%);
+    background-color: hsl(150, 100%, 66%);
+    border: none;
+
+}
+
+.title {
+    color: hsl(150, 100%, 66%);
+    font-size: 16px;
+}
